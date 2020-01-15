@@ -1,0 +1,106 @@
+body {
+    font-family: 'Raleway';
+}
+
+h1 {
+    font-size: 90px;
+    letter-spacing: 5px;
+    border-left: 10px solid black;
+    padding-left: 20px;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+h2, p {
+    font-weight: 100;
+}
+
+section {
+    padding: 200px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.title-border-left {
+    border-left: 1px solid black;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+nav {
+    border-bottom: 1px solid rgb(230,230,230);
+    padding: 20px 40px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255,255,255,.8);
+    z-index: 9999;
+}
+
+.logo {
+    width: 120px;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+.small-break {
+    width: 90px;
+    margin: 20px 0;
+    border-color: black;
+}
+
+.break-right {
+    margin-left: calc(100% -  90px)
+}
+
+.hero {
+    padding: 200px 0;
+    background: url('../img/fondo.jpg') no-repeat center / cover;
+}
+
+.claim {
+    background-color: rgba(50, 50, 50);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.contact {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.mobiles {
+    padding-bottom: 0
+}
+
+
+
+
+/* 
+CREAMOS UN 'BREAKPOINT' O 'MEDIA QUERY' PARA REDUCIR EL TAMAÑO DEL TÍTULO Y SUBTÍTULO POR DEBAJO DE 500px
+*/
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 60px;
+        letter-spacing: 2px;
+    }
+
+    .subtitle {
+        font-size: 19px;
+    }
+
+}   
